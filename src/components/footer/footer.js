@@ -3,7 +3,7 @@ import React from 'react'
 function footer() {
     return (
         <div>
-            <p>Footer area</p>
+            <p>Footer area - This will be a menu </p>
         </div>
     )
 }
