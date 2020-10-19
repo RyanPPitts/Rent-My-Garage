@@ -2,11 +2,15 @@ import React from 'react'
 
 function nav() {
     return (
-        <div>
-            <p>Nav Bar Area - Home - About Us - Contact Us</p>
-            <button>Login/Signup</button>
-            <button>New Listing (when signed in)</button>
-        </div>
+        <nav>
+            <h3>Logo</h3>
+            <ul className="nav-links">
+                <li>About</li>
+                <li>Contact Us</li>
+                <li>Sign Up</li>
+                <li>Login</li>
+            </ul>
+        </nav>
     )
 }
 
